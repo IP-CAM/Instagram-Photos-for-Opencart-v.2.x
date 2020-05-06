@@ -1,0 +1,119 @@
+.instagram-widget {
+	display: block;
+	position: relative;
+	padding: 15px 0;
+}
+
+.instagram-widget .instagram-account {
+	margin-bottom: 20px;
+}
+
+.instagram-widget .account-photo {
+	display: inline-block;
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: 15px;
+	overflow: hidden;
+	border: 1px solid #CFD8DC;
+	border-radius: 50%;
+	transition: 0.25s ease-in-out;
+}
+
+.instagram-widget .account-photo:hover {
+	border-color: #607D8B;
+}
+
+.instagram-widget .account-info {
+	display: block;
+	float: left;
+}
+
+.instagram-widget .account-name {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 110%;
+	margin-bottom: 7px;
+}
+
+.instagram-widget .account-counters > span {
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.instagram-widget .account-counters > span:last-child {
+	margin-right: 0;
+}
+
+.instagram-grid .instagram-item {
+	margin-bottom: 30px;
+}
+
+.instagram-widget .instagram-item {
+	display: block;
+	position: relative;
+	text-decoration: none !important;
+}
+
+.instagram-widget .instagram-item > .video {
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	top: 50%;
+	left: 50%;
+	margin-top: -20px;
+	margin-left: -20px;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	opacity: 0.8;
+	transition: 0.25s ease-in-out;
+}
+
+.instagram-widget .instagram-item:hover > .video {
+	opacity: 0.4;
+}
+
+.instagram-widget .instagram-item > .item-hover {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.4);
+	opacity: 0;
+	transition: 0.25s ease-in-out;
+}
+
+.instagram-widget .instagram-item:hover > .item-hover {
+	opacity: 1;
+}
+
+.instagram-widget .instagram-item .item-inner {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	top: 50%;
+	left: 0;
+	margin-top: -10px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+.instagram-widget .instagram-item .item-inner > span {
+	margin-right: 7px;
+}
+
+.instagram-widget .instagram-item .item-inner > span:last-child {
+	margin-right: 0;
+}
+
+.instagram-widget .instagram-item .item-inner > span > i{
+	font-size: 20px;
+}
